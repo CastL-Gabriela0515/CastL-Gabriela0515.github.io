@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+        <title> Gabriela's Amazing Website </title>
+            <style>
+                body {
+                    background: rgb(248, 124, 200);
+                    color: rgb(45, 45, 45);
+                    padding: 10px;
+                    font-family: Garamond ;
+                }
+                #all-contents {
+                    max-width: 800px;
+                    margin: auto;
+                }
+            
+                /* navigation menu */
+                nav {
+                    background: black;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    display: flex;
+                    padding: 10px;
+                }
+                h1 {
+                    display: flex;
+                    align-items: center;
+                    color: yellow;
+                    flex: 1;
+                    margin: 0;
+                }
+                #nav-ul {
+                    list-style-image: none;
+                }
+                .nav-li {
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            
+                /* main container area beneath menu */
+                main {
+                    background: rgb(242, 208, 211);
+                    display: flex;
+                }
+                .sidebar {
+                    margin-right: 25px;
+                    padding: 10px;
+                }
+                .sidebar-img {
+                    width: 200px;
+                }
+                .content {
+                    flex: 1;
+                    padding: 15px;
+                }
+                #interests {
+                    border: 4px rgb(241, 17, 17) ridge;
+                    padding: 8px;
+                }
+                h2, h3 {
+                    margin: 0px;
+                }
+            </style>
+    </head>
+    <body>
+         <!-- All content goes here -->
+ <div id="all-contents">
+        <nav>
+            <h1>Gabriela's Amazing Website</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                  <a href="index.html"> Home </a>
+                </li>
+                <li class="nav-li">
+                  <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>        
+        </nav>
+        <main>
+              <!-- Sidebar section -->
+                 <div class="sidebar"> 
+                    <img class="sidebar-img"src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg" width="250">
+                 </div>
+              <!-- Content section -->
+                 <div class="content">
+                    <h2> Gabriela Castaneda</h2>
+                    <p> Student at East Ascension High School</p>
+                    <!-- Interests section -->
+                        <div id="interests">
+                         <h3>Interests</h3>
+                         <ul>
+                         <li>Drawing and painting</li>
+                         <li>Going out with my family</li>
+                         <li>Listening to music </li>
+                        </ul>
+                        </div>
+
+                </div>
+        </main>
+    </div>
+
+    </body>
+</html>
