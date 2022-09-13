@@ -40,9 +40,10 @@
 
     // example:
     createCollectable(type.max, 200, 170,6,0.7);
-    createCollectable (type.db, 600, 520, 0.5 );
     createCollectable (type.grace, 385,475,0.5);
     createCollectable (type.db, 550,355,0.5);
+    createCollectable (type.db, 450,200,0.5);
+
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
